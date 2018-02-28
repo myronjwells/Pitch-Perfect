@@ -7,23 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A03DF19B203E16AA004165F6 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03DF19A203E16AA004165F6 /* PlaySoundsViewController.swift */; };
 		A0585CA02019C1D30092D6DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0585C9F2019C1D30092D6DC /* AppDelegate.swift */; };
-		A0585CA22019C1D30092D6DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0585CA12019C1D30092D6DC /* ViewController.swift */; };
+		A0585CA22019C1D30092D6DC /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0585CA12019C1D30092D6DC /* RecordSoundsViewController.swift */; };
 		A0585CA52019C1D30092D6DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0585CA32019C1D30092D6DC /* Main.storyboard */; };
-		A0585CA82019C1D30092D6DC /* Pitch_Perfect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0585CA62019C1D30092D6DC /* Pitch_Perfect.xcdatamodeld */; };
 		A0585CAA2019C1D30092D6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0585CA92019C1D30092D6DC /* Assets.xcassets */; };
 		A0585CAD2019C1D30092D6DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0585CAB2019C1D30092D6DC /* LaunchScreen.storyboard */; };
+		A07F37BE204488B200FBF068 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F37BD204488B200FBF068 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A03DF19A203E16AA004165F6 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		A0585C9C2019C1D30092D6DC /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0585C9F2019C1D30092D6DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0585CA12019C1D30092D6DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0585CA12019C1D30092D6DC /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		A0585CA42019C1D30092D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0585CA72019C1D30092D6DC /* Pitch_Perfect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pitch_Perfect.xcdatamodel; sourceTree = "<group>"; };
 		A0585CA92019C1D30092D6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0585CAC2019C1D30092D6DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0585CAE2019C1D30092D6DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A07F37BD204488B200FBF068 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		A0585C9E2019C1D30092D6DC /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				A07F37BD204488B200FBF068 /* PlaySoundsViewController+Audio.swift */,
 				A0585C9F2019C1D30092D6DC /* AppDelegate.swift */,
-				A0585CA12019C1D30092D6DC /* ViewController.swift */,
+				A0585CA12019C1D30092D6DC /* RecordSoundsViewController.swift */,
 				A0585CA32019C1D30092D6DC /* Main.storyboard */,
 				A0585CA92019C1D30092D6DC /* Assets.xcassets */,
 				A0585CAB2019C1D30092D6DC /* LaunchScreen.storyboard */,
 				A0585CAE2019C1D30092D6DC /* Info.plist */,
-				A0585CA62019C1D30092D6DC /* Pitch_Perfect.xcdatamodeld */,
+				A03DF19A203E16AA004165F6 /* PlaySoundsViewController.swift */,
 			);
 			path = "Pitch Perfect";
 			sourceTree = "<group>";
@@ -139,9 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0585CA22019C1D30092D6DC /* ViewController.swift in Sources */,
+				A07F37BE204488B200FBF068 /* PlaySoundsViewController+Audio.swift in Sources */,
+				A0585CA22019C1D30092D6DC /* RecordSoundsViewController.swift in Sources */,
 				A0585CA02019C1D30092D6DC /* AppDelegate.swift in Sources */,
-				A0585CA82019C1D30092D6DC /* Pitch_Perfect.xcdatamodeld in Sources */,
+				A03DF19B203E16AA004165F6 /* PlaySoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +285,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2T53Y5J5;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mwells.Pitch-Perfect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -296,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM2T53Y5J5;
 				INFOPLIST_FILE = "Pitch Perfect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mwells.Pitch-Perfect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -326,19 +332,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A0585CA62019C1D30092D6DC /* Pitch_Perfect.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A0585CA72019C1D30092D6DC /* Pitch_Perfect.xcdatamodel */,
-			);
-			currentVersion = A0585CA72019C1D30092D6DC /* Pitch_Perfect.xcdatamodel */;
-			path = Pitch_Perfect.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = A0585C942019C1D30092D6DC /* Project object */;
 }
